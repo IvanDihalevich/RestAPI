@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\src\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\src\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\src\\Domain\\Domain.csproj",
+      "projectPath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\src\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Kripa\\.nuget\\packages\\",
-      "outputPath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\src\\Domain\\obj\\",
+      "outputPath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\src\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

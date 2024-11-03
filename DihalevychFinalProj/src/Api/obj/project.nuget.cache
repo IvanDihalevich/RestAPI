@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ilDKgDpFH5s=",
+  "dgSpecHash": "8AmWupKoFmo=",
   "success": true,
-  "projectFilePath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\src\\Api\\Api.csproj",
+  "projectFilePath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\src\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kripa\\.nuget\\packages\\efcore.namingconventions\\8.0.3\\efcore.namingconventions.8.0.3.nupkg.sha512",
     "C:\\Users\\Kripa\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",

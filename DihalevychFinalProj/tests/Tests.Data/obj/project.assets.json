@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\tests\\Tests.Data\\Tests.Data.csproj",
+      "projectUniqueName": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\tests\\Tests.Data\\Tests.Data.csproj",
       "projectName": "Tests.Data",
-      "projectPath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\tests\\Tests.Data\\Tests.Data.csproj",
+      "projectPath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\tests\\Tests.Data\\Tests.Data.csproj",
       "packagesPath": "C:\\Users\\Kripa\\.nuget\\packages\\",
-      "outputPath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\tests\\Tests.Data\\obj\\",
+      "outputPath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\tests\\Tests.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\src\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\src\\Domain\\Domain.csproj"
+            "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\src\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\src\\Domain\\Domain.csproj"
             }
           }
         }

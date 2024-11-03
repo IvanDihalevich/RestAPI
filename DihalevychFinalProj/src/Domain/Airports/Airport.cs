@@ -19,4 +19,5 @@ public class Airport
     public static Airport New(AirportId id, string name, string location)
         => new(id, name, location);
     
+    
 }

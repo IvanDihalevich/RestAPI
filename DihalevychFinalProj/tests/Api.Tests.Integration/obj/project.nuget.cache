@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gTcDCylda8M=",
+  "dgSpecHash": "dHvyf+In9Bo=",
   "success": true,
-  "projectFilePath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\tests\\Api.Tests.Integration\\Api.Tests.Integration.csproj",
+  "projectFilePath": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\tests\\Api.Tests.Integration\\Api.Tests.Integration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kripa\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Kripa\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
