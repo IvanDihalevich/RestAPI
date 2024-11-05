@@ -23,4 +23,11 @@ public class Airplane
     public static Airplane New(AirplaneId id, string model, int capacity, int yearOfManufacture,AirportId airportId)
         => new(id, model, capacity, yearOfManufacture, airportId);
     
+    public void UpdateDetails(string model, int maxPassenger, int yearOfManufacture)
+    {
+        Model = model;
+        MaxPassenger = maxPassenger;
+        YearOfManufacture = yearOfManufacture;
+    }
+
 }

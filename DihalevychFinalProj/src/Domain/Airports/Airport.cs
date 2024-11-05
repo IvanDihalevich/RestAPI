@@ -19,5 +19,9 @@ public class Airport
     public static Airport New(AirportId id, string name, string location)
         => new(id, name, location);
     
-    
+    public void UpdateDetails(string name, string location)
+    {
+        Name = name;
+        Location = location;
+    }
 }

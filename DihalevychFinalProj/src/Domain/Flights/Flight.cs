@@ -35,4 +35,11 @@ public class Flight
         AirportId departureAirportId, AirportId arrivalAirportId, AirplaneId airplaneId)
         => new(id, flightName, departureTime, arrivalTime, departureAirportId, arrivalAirportId,airplaneId);
     
+    public void UpdateDetails(string flightName, DateTime departureTime, DateTime arrivalTime)
+    {
+        FlightName = flightName;
+        DepartureTime = departureTime;
+        ArrivalTime = arrivalTime;
+    }
+
 }

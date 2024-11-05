@@ -10,7 +10,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7259e27f-83eb-425e-87fe-b4204ee53b6a" name="Changes" comment="" />
+    <list default="true" id="7259e27f-83eb-425e-87fe-b4204ee53b6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/CreateAirplaneCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/CreateAirplaneCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/DeleteAirplaneCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/DeleteAirplaneCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/UpdateAirplaneCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/UpdateAirplaneCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Exceptions/AirplaneExceptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/CreateAirportCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/CreateAirportCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/DeleteAirportCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/DeleteAirportCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/UpdateAirportCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/UpdateAirportCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Exceptions/AirportException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/CreateFlightCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/CreateFlightCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/DeleteFlightCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/DeleteFlightCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/UpdateFlightCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/UpdateFlightCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Exceptions/FlightException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/CreatePassengerCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/CreatePassengerCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/DeletePassengerCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/DeletePassengerCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/UpdatePassengerCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/UpdatePassengerCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Exceptions/PassengerException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/CreateTicketCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/CreateTicketCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/DeleteTicketCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/DeleteTicketCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/UpdateTicketCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/UpdateTicketCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Exceptions/TicketException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Airplanes/Airplane.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Airplanes/Airplane.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Airports/Airport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Airports/Airport.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Domain/Flights/Flight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Flights/Flight.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,31 +75,33 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2lefXZMoSwDazZTiJmT9Lx5Czng" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Api: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dad0e599-6dc3-4f7d-8618-f235f25b163f.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Api: http.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dad0e599-6dc3-4f7d-8618-f235f25b163f.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Api: http">
     <configuration name="Api" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -177,6 +218,7 @@
       <workItem from="1730636542993" duration="212000" />
       <workItem from="1730636774792" duration="284000" />
       <workItem from="1730637073282" duration="186000" />
+      <workItem from="1730637980026" duration="7277000" />
     </task>
     <servers />
   </component>
