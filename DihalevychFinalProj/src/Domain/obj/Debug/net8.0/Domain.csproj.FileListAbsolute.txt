@@ -31,3 +31,15 @@ C:\My important files\3 курс\REST.API and ASP.NET Core\DihalevychFinal\Dihal
 C:\My important files\3 курс\REST.API and ASP.NET Core\DihalevychFinal\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\My important files\3 курс\REST.API and ASP.NET Core\DihalevychFinal\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\Domain.pdb
 C:\My important files\3 курс\REST.API and ASP.NET Core\DihalevychFinal\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\bin\Debug\net8.0\Domain.dll
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\bin\Debug\net8.0\Domain.pdb
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\Domain.dll
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\Domain.pdb
+C:\My important files\3 курс\REST.API and ASP.NET Core\RestAPI\DihalevychFinalProj\src\Domain\obj\Debug\net8.0\ref\Domain.dll
