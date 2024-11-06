@@ -31,7 +31,7 @@ public class PassengersController(ISender sender, IPassengerQueries passengerQue
     }
 
     [HttpPost]
-    public async Task<ActionResult<PassengerDto>> Create([FromBody] PassengerDto request, CancellationToken cancellationToken)
+    public async Task<ActionResult<CreatePassengerDto>> Create([FromBody] CreatePassengerDto request, CancellationToken cancellationToken)
     {
         var input = new CreatePassengerCommand
         {
@@ -42,8 +42,8 @@ public class PassengersController(ISender sender, IPassengerQueries passengerQue
 
         var result = await sender.Send(input, cancellationToken);
 
-        return result.Match<ActionResult<PassengerDto>>(
-            passenger => PassengerDto.FromDomainModel(passenger),
+        return result.Match<ActionResult<CreatePassengerDto>>(
+            passenger => CreatePassengerDto.FromDomainModel(passenger),
             e => e.ToObjectResult());
     }
 

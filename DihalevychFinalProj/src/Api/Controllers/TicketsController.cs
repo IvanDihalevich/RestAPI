@@ -31,7 +31,7 @@ public class TicketsController(ISender sender, ITicketQueries ticketQueries) : C
     }
 
     [HttpPost]
-    public async Task<ActionResult<TicketDto>> Create([FromBody] TicketDto request, CancellationToken cancellationToken)
+    public async Task<ActionResult<CreateTicketDto>> Create([FromBody] CreateTicketDto request, CancellationToken cancellationToken)
     {
         var input = new CreateTicketCommand
         {
@@ -41,13 +41,13 @@ public class TicketsController(ISender sender, ITicketQueries ticketQueries) : C
 
         var result = await sender.Send(input, cancellationToken);
 
-        return result.Match<ActionResult<TicketDto>>(
-            ticket => TicketDto.FromDomainModel(ticket),
+        return result.Match<ActionResult<CreateTicketDto>>(
+            ticket => CreateTicketDto.FromDomainModel(ticket),
             e => e.ToObjectResult());
     }
 
     [HttpPut("{ticketId:guid}")]
-    public async Task<ActionResult<TicketDto>> Update([FromRoute] Guid ticketId, [FromBody] TicketDto request, CancellationToken cancellationToken)
+    public async Task<ActionResult<UpdateTicketDto>> Update([FromRoute] Guid ticketId, [FromBody] UpdateTicketDto request, CancellationToken cancellationToken)
     {
         var input = new UpdateTicketCommand
         {
@@ -58,8 +58,8 @@ public class TicketsController(ISender sender, ITicketQueries ticketQueries) : C
 
         var result = await sender.Send(input, cancellationToken);
 
-        return result.Match<ActionResult<TicketDto>>(
-            ticket => TicketDto.FromDomainModel(ticket),
+        return result.Match<ActionResult<UpdateTicketDto>>(
+            ticket => UpdateTicketDto.FromDomainModel(ticket),
             e => e.ToObjectResult());
     }
 

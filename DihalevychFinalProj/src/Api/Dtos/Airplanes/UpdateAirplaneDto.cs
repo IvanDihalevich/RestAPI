@@ -3,7 +3,7 @@
 namespace Api.Dtos.Airplanes;
 
 public record UpdateAirplaneDto(
-    Guid Id,
+    Guid AirplaneId,
     string Model,
     int MaxPassenger,
     int YearOfManufacture,
@@ -11,7 +11,7 @@ public record UpdateAirplaneDto(
 {
     public static UpdateAirplaneDto FromDomainModel(Airplane airplane)
         => new(
-            Id: airplane.Id.Value,
+            AirplaneId: airplane.Id.Value,
             Model: airplane.Model,
             MaxPassenger: airplane.MaxPassenger,
             YearOfManufacture: airplane.YearOfManufacture,

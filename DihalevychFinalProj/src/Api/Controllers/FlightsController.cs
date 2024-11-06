@@ -31,7 +31,7 @@ public class FlightsController(ISender sender, IFlightQueries flightQueries) : C
     }
 
     [HttpPost]
-    public async Task<ActionResult<FlightDto>> Create([FromBody] FlightDto request, CancellationToken cancellationToken)
+    public async Task<ActionResult<CreateFlightDto>> Create([FromBody] CreateFlightDto request, CancellationToken cancellationToken)
     {
         var input = new CreateFlightCommand
         {
@@ -45,13 +45,13 @@ public class FlightsController(ISender sender, IFlightQueries flightQueries) : C
 
         var result = await sender.Send(input, cancellationToken);
 
-        return result.Match<ActionResult<FlightDto>>(
-            flight => FlightDto.FromDomainModel(flight),
+        return result.Match<ActionResult<CreateFlightDto>>(
+            flight => CreateFlightDto.FromDomainModel(flight),
             e => e.ToObjectResult());
     }
 
     [HttpPut("{flightId:guid}")]
-    public async Task<ActionResult<FlightDto>> Update([FromRoute] Guid flightId, [FromBody] FlightDto request, CancellationToken cancellationToken)
+    public async Task<ActionResult<UpdateFlightDto>> Update([FromRoute] Guid flightId, [FromBody] UpdateFlightDto request, CancellationToken cancellationToken)
     {
         var input = new UpdateFlightCommand
         {
@@ -63,8 +63,8 @@ public class FlightsController(ISender sender, IFlightQueries flightQueries) : C
 
         var result = await sender.Send(input, cancellationToken);
 
-        return result.Match<ActionResult<FlightDto>>(
-            flight => FlightDto.FromDomainModel(flight),
+        return result.Match<ActionResult<UpdateFlightDto>>(
+            flight => UpdateFlightDto.FromDomainModel(flight),
             e => e.ToObjectResult());
     }
 

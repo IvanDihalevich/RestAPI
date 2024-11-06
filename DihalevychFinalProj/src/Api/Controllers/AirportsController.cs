@@ -31,7 +31,7 @@ public class AirportsController(ISender sender, IAirportQueries airportQueries) 
     }
 
     [HttpPost]
-    public async Task<ActionResult<AirportDto>> Create([FromBody] AirportDto request, CancellationToken cancellationToken)
+    public async Task<ActionResult<CreateAirportDto>> Create([FromBody] CreateAirportDto request, CancellationToken cancellationToken)
     {
         var input = new CreateAirportCommand
         {
@@ -41,8 +41,8 @@ public class AirportsController(ISender sender, IAirportQueries airportQueries) 
 
         var result = await sender.Send(input, cancellationToken);
 
-        return result.Match<ActionResult<AirportDto>>(
-            airport => AirportDto.FromDomainModel(airport),
+        return result.Match<ActionResult<CreateAirportDto>>(
+            airport => CreateAirportDto.FromDomainModel(airport),
             e => e.ToObjectResult());
     }
 

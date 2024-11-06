@@ -49,11 +49,11 @@ public class AirplanesController(ISender sender, IAirplaneQueries airplaneQuerie
     }
 
     [HttpPut]
-    public async Task<ActionResult<AirplaneDto>> Update([FromBody] AirplaneDto request, CancellationToken cancellationToken)
+    public async Task<ActionResult<UpdateAirplaneDto>> Update([FromBody] UpdateAirplaneDto request, CancellationToken cancellationToken)
     {
         var input = new UpdateAirplaneCommand
         {
-            AirplaneId = request.Id!.Value,
+            AirplaneId = request.AirplaneId,
             Model = request.Model,
             MaxPassenger = request.MaxPassenger,
             YearOfManufacture = request.YearOfManufacture
@@ -61,8 +61,8 @@ public class AirplanesController(ISender sender, IAirplaneQueries airplaneQuerie
 
         var result = await sender.Send(input, cancellationToken);
 
-        return result.Match<ActionResult<AirplaneDto>>(
-            airplane => AirplaneDto.FromDomainModel(airplane),
+        return result.Match<ActionResult<UpdateAirplaneDto>>(
+            airplane => UpdateAirplaneDto.FromDomainModel(airplane),
             e => e.ToObjectResult());
     }
 
