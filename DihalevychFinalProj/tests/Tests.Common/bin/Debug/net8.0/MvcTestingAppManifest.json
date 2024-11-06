@@ -1,7 +1,7 @@
 {
-  "Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\src\\Api",
-  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\src\\Application",
-  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\src\\Domain",
-  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\src\\Infrastructure",
-  "Tests.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\DihalevychFinal\\DihalevychFinalProj\\tests\\Tests.Data"
+  "Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\src\\Api",
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\src\\Application",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\src\\Domain",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\src\\Infrastructure",
+  "Tests.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\My important files\\3 курс\\REST.API and ASP.NET Core\\RestAPI\\DihalevychFinalProj\\tests\\Tests.Data"
 }
