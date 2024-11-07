@@ -13,7 +13,7 @@ namespace Api.Controllers;
 [ApiController]
 public class AirplanesController(ISender sender, IAirplaneQueries airplaneQueries) : ControllerBase
 {
-    [HttpGet]
+    [HttpGet ("GetAll")]
     public async Task<ActionResult<IReadOnlyList<AirplaneDto>>> GetAll(CancellationToken cancellationToken)
     {
         var entities = await airplaneQueries.GetAll(cancellationToken);
@@ -48,7 +48,7 @@ public class AirplanesController(ISender sender, IAirplaneQueries airplaneQuerie
             e => e.ToObjectResult());
     }
 
-    [HttpPut]
+    [HttpPut ("Update")]
     public async Task<ActionResult<UpdateAirplaneDto>> Update([FromBody] UpdateAirplaneDto request, CancellationToken cancellationToken)
     {
         var input = new UpdateAirplaneCommand

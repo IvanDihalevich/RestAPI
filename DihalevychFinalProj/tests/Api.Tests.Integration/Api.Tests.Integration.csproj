@@ -27,12 +27,5 @@
       <ProjectReference Include="..\Tests.Common\Tests.Common.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Airplanes\" />
-      <Folder Include="Flights\" />
-      <Folder Include="Passengers\" />
-      <Folder Include="Tickets\" />
-    </ItemGroup>
-
 
 </Project>

@@ -11,44 +11,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7259e27f-83eb-425e-87fe-b4204ee53b6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/CreateAirplaneCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/CreateAirplaneCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/DeleteAirplaneCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/DeleteAirplaneCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/UpdateAirplaneCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Commands/UpdateAirplaneCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airplanes/Exceptions/AirplaneExceptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/CreateAirportCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/CreateAirportCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/DeleteAirportCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/DeleteAirportCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/UpdateAirportCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Commands/UpdateAirportCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Airports/Exceptions/AirportException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/CreateFlightCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/CreateFlightCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/DeleteFlightCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/DeleteFlightCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/UpdateFlightCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Commands/UpdateFlightCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Flights/Exceptions/FlightException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/CreatePassengerCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/CreatePassengerCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/DeletePassengerCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/DeletePassengerCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/UpdatePassengerCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Commands/UpdatePassengerCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Passngers/Exceptions/PassengerException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/CreateTicketCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/CreateTicketCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/DeleteTicketCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/DeleteTicketCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/UpdateTicketCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Commands/UpdateTicketCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/Tickets/Exceptions/TicketException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Airplanes/Airplane.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Airplanes/Airplane.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Airports/Airport.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Airports/Airport.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Domain/Flights/Flight.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Flights/Flight.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/Airplanes/AirplanesControllerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Final_Proj_Dihalevych/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Final_Proj_Dihalevych/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/Api.Tests.Integration.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/Api.Tests.Integration.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Api.Tests.Integration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Api.Tests.Integration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Api.Tests.Integration.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Api.Tests.Integration.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Tests.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Tests.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Tests.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Tests.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Tests.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Tests.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Tests.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/bin/Debug/net8.0/Tests.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/Api.Tests.Integration.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/ref/Api.Tests.Integration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/ref/Api.Tests.Integration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/refint/Api.Tests.Integration.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Api.Tests.Integration/obj/Debug/net8.0/refint/Api.Tests.Integration.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/bin/Debug/net8.0/Tests.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/bin/Debug/net8.0/Tests.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/bin/Debug/net8.0/Tests.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/bin/Debug/net8.0/Tests.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/bin/Debug/net8.0/Tests.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/bin/Debug/net8.0/Tests.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/bin/Debug/net8.0/Tests.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/bin/Debug/net8.0/Tests.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/Tests.Common.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/ref/Tests.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/ref/Tests.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/refint/Tests.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Common/obj/Debug/net8.0/refint/Tests.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Data/AirplanesData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Data/AirplanesData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Data/bin/Debug/net8.0/Tests.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Data/bin/Debug/net8.0/Tests.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Data/bin/Debug/net8.0/Tests.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Data/bin/Debug/net8.0/Tests.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/Tests.Data.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/Tests.Data.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/Tests.Data.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/Tests.Data.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/Tests.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/Tests.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/Tests.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/Tests.Data.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/Tests.Data.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/Tests.Data.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/ref/Tests.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/ref/Tests.Data.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/refint/Tests.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Tests.Data/obj/Debug/net8.0/refint/Tests.Data.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +70,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/38284ca4f4afe378f96fccac3e179f4bceda7a74eb151623b66d2dc3634d9b/ExceptionAggregator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ecc6246fd855ee6a4602ae9988369e56f35ce0107895f34cfd2b9274e27ac1/FluentValidationMvcExtensions.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="SWEA" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -82,26 +88,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Api: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dad0e599-6dc3-4f7d-8618-f235f25b163f.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Api: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dad0e599-6dc3-4f7d-8618-f235f25b163f.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Api: http">
     <configuration name="Api" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -219,6 +225,7 @@
       <workItem from="1730636774792" duration="284000" />
       <workItem from="1730637073282" duration="186000" />
       <workItem from="1730637980026" duration="7277000" />
+      <workItem from="1730832844124" duration="22949000" />
     </task>
     <servers />
   </component>

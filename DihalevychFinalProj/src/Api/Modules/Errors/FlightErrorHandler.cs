@@ -11,6 +11,7 @@ public static class FlightErrorHandler
         {
             StatusCode = exception switch
             {
+                
                 FlightNotFoundException => StatusCodes.Status404NotFound,
                 FlightAlreadyExistsException => StatusCodes.Status409Conflict,
                 FlightUnknownException => StatusCodes.Status500InternalServerError,
