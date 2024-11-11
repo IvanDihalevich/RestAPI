@@ -33,7 +33,7 @@ public class AirplanesControllerTests : BaseIntegrationTest, IAsyncLifetime
             AirportId: _mainAirport.Id.Value);
 
         // Act
-        var response = await Client.PostAsJsonAsync("airplanes", request);
+        var response = await Client.PostAsJsonAsync("airplanes/create", request);
 
         // Assert
         response.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -167,7 +167,7 @@ public class AirplanesControllerTests : BaseIntegrationTest, IAsyncLifetime
             AirportId: Guid.NewGuid());
 
         // Act
-        var response = await Client.PostAsJsonAsync("airplanes", request);
+        var response = await Client.PostAsJsonAsync("airplanes/create", request);
 
         // Assert
         response.IsSuccessStatusCode.Should().BeFalse();
@@ -184,7 +184,7 @@ public class AirplanesControllerTests : BaseIntegrationTest, IAsyncLifetime
             AirportId: _mainAirport.Id.Value);
 
         // Act
-        var response = await Client.PostAsJsonAsync("airplanes", request);
+        var response = await Client.PostAsJsonAsync("airplanes/create", request);
 
         // Assert
         response.StatusCode.Should().Be(HttpStatusCode.InternalServerError);

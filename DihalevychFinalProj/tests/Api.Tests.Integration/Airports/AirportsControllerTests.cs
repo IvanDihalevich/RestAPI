@@ -28,7 +28,7 @@ namespace Api.Tests.Integration.Airports
                 Location: "Test Location");
 
             // Act
-            var response = await Client.PostAsJsonAsync("airports", request);
+            var response = await Client.PostAsJsonAsync("airports/create", request);
 
             // Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK); 
@@ -48,7 +48,7 @@ namespace Api.Tests.Integration.Airports
         public async Task ShouldGetAllAirports()
         {
             // Act
-            var response = await Client.GetAsync("airports");
+            var response = await Client.GetAsync("airports/getAll");
 
             // Assert
             response.IsSuccessStatusCode.Should().BeTrue();
@@ -159,7 +159,7 @@ namespace Api.Tests.Integration.Airports
                 Location: "Location");
 
             // Act
-            var response = await Client.PostAsJsonAsync("airports", request);
+            var response = await Client.PostAsJsonAsync("airports/create", request);
 
             // Assert
             response.IsSuccessStatusCode.Should().BeFalse(); 

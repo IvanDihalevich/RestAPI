@@ -13,7 +13,7 @@ namespace Api.Controllers;
 [ApiController]
 public class TicketsController(ISender sender, ITicketQueries ticketQueries) : ControllerBase
 {
-    [HttpGet]
+    [HttpGet ("getAll")]
     public async Task<ActionResult<IReadOnlyList<TicketDto>>> GetAll(CancellationToken cancellationToken)
     {
         var tickets = await ticketQueries.GetAll(cancellationToken);
@@ -30,7 +30,7 @@ public class TicketsController(ISender sender, ITicketQueries ticketQueries) : C
             () => NotFound());
     }
 
-    [HttpPost]
+    [HttpPost ("create")]
     public async Task<ActionResult<CreateTicketDto>> Create([FromBody] CreateTicketDto request, CancellationToken cancellationToken)
     {
         var input = new CreateTicketCommand

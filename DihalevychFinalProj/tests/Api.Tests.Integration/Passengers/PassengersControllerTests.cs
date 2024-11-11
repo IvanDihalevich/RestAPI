@@ -30,7 +30,7 @@ namespace Api.Tests.Integration.Passengers
             );
 
             // Act
-            var response = await Client.PostAsJsonAsync("passengers", request);
+            var response = await Client.PostAsJsonAsync("passengers/create", request);
 
             // Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -48,7 +48,7 @@ namespace Api.Tests.Integration.Passengers
         public async Task ShouldGetAllPassengers()
         {
             // Act
-            var response = await Client.GetAsync("passengers");
+            var response = await Client.GetAsync("passengers/getAll");
 
             // Assert
             response.IsSuccessStatusCode.Should().BeTrue();
@@ -163,7 +163,7 @@ namespace Api.Tests.Integration.Passengers
             );
 
             // Act
-            var response = await Client.PostAsJsonAsync("passengers", request);
+            var response = await Client.PostAsJsonAsync("passengers/create", request);
 
             // Assert
             response.IsSuccessStatusCode.Should().BeFalse();

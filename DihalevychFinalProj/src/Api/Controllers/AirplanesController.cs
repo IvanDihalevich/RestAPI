@@ -30,7 +30,7 @@ public class AirplanesController(ISender sender, IAirplaneQueries airplaneQuerie
             () => NotFound());
     }
 
-    [HttpPost]
+    [HttpPost ("create")]
     public async Task<ActionResult<CreateAirplaneDto>> Create([FromBody] CreateAirplaneDto request, CancellationToken cancellationToken)
     {
         var input = new CreateAirplaneCommand

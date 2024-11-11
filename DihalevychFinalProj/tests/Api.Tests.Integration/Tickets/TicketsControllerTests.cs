@@ -24,7 +24,6 @@ namespace Api.Tests.Integration.Tickets
 
         public TicketsControllerTests(IntegrationTestWebFactory factory) : base(factory)
         {
-            // Ініціалізація базових даних для тестів
             _departureAirport = AirportsData.MainAirport();
             _arrivalAirport = AirportsData.MainAirport();
             _airplane = AirplanesData.MainAirplane(_departureAirport.Id);
@@ -42,7 +41,7 @@ namespace Api.Tests.Integration.Tickets
                 PassengerId: _passenger.Id.Value);
 
             // Act
-            var response = await Client.PostAsJsonAsync("tickets", request);
+            var response = await Client.PostAsJsonAsync("tickets/create", request);
 
             // Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -56,7 +55,7 @@ namespace Api.Tests.Integration.Tickets
         public async Task ShouldGetAllTickets()
         {
             // Act
-            var response = await Client.GetAsync("tickets");
+            var response = await Client.GetAsync("tickets/getAll");
 
             // Assert
             response.IsSuccessStatusCode.Should().BeTrue();
@@ -159,7 +158,7 @@ namespace Api.Tests.Integration.Tickets
                 PassengerId: Guid.Empty);
 
             // Act
-            var response = await Client.PostAsJsonAsync("tickets", request);
+            var response = await Client.PostAsJsonAsync("tickets/create", request);
 
             // Assert
             response.IsSuccessStatusCode.Should().BeFalse();
@@ -174,7 +173,7 @@ namespace Api.Tests.Integration.Tickets
                 PassengerId: _passenger.Id.Value);
 
             // Act
-            var response = await Client.PostAsJsonAsync("tickets", request);
+            var response = await Client.PostAsJsonAsync("tickets/create", request);
 
             // Assert
             response.StatusCode.Should().Be(HttpStatusCode.InternalServerError);
@@ -182,7 +181,7 @@ namespace Api.Tests.Integration.Tickets
 
         public async Task InitializeAsync()
         {
-            // Додаємо всі об'єкти в контекст
+
             await Context.Airports.AddRangeAsync(_departureAirport, _arrivalAirport);
             await Context.Airplanes.AddAsync(_airplane);
             await Context.Flights.AddAsync(_flight);
@@ -193,7 +192,6 @@ namespace Api.Tests.Integration.Tickets
 
         public async Task DisposeAsync()
         {
-            // Видаляємо всі об'єкти після виконання тестів
             Context.Tickets.RemoveRange(Context.Tickets);
             Context.Flights.RemoveRange(Context.Flights);
             Context.Airplanes.RemoveRange(Context.Airplanes);
